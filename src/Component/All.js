@@ -36,21 +36,18 @@ function App() {
         <
         Header counterCartItems = { cartItems.length } >
 
-        <
-        /Header> <
-        div className = "row" >
-        <
-        Main onAdd = { onAdd }
-        products = { products } >
-        <
-        /Main>  <
-        Basket onAdd = { onAdd }
-        onRemove = { onRemove }
-        cartItems = { cartItems } > < /Basket>  <
-        /div>  <
-        Footer / >
-        <
-        /div>
+        </Header>
+         <div className ="row">
+         <Main onAdd = {onAdd}
+        products={ products}>
+        </Main> 
+         <Basket onAdd = {onAdd }
+        onRemove = { onRemove}
+        cartItems = { cartItems }>
+         </Basket> 
+          </div> 
+         <Footer/>
+        </div>
     )
 
 }
