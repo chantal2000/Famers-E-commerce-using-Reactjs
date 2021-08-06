@@ -14,7 +14,9 @@ function App(){
  
  return(
    <div className="App">
+
           <Router>
+
      <nav>
            <span ><Link to="/Home"className="white">Home</Link> </span>
            <span><Link to="/about"className="white">About</Link></span>     
